@@ -10,7 +10,7 @@ var apiRouter = require('./routes/api');
 var usersRouter = require('./routes/users');
 
 // DataBase 
-var mysql = require("mysql");
+var mysql = require("mysql2");
 
 var con = mysql.createConnection({
     host: "35.222.255.251",
